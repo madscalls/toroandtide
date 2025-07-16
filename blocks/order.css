@@ -1,0 +1,19 @@
+.online__order-page {
+  background: radial-gradient(
+    circle,
+    #fabe4e 0%,
+    #f1c243 10%,
+    #fac94e 35%,
+    #fd9d49 40%,
+    #d37d31 50%,
+    #000000 100%
+  );
+  font-family: "Roboto", sans-serif;
+}
+
+.online__order-img {
+  height: 500px;
+  width: auto;
+  margin-left: 37%;
+  border-radius: 40%;
+}

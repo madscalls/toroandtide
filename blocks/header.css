@@ -1,0 +1,21 @@
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  contain: layout paint;
+  isolation: isolate; /* prevent visual leaks */
+}
+
+.header__image {
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  margin: 0;
+}

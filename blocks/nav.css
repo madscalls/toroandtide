@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav__list {
+  list-style: none;
+  padding: 0;
+  gap: 2rem;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__wrapper {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: white;
+  transition: color 0.2s ease;
+  font-weight: 500;
+}
+
+.nav__link:hover {
+  color: orange;
+}

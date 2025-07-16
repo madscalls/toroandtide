@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Tori & Tide</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://use.typekit.net/kth2cyw.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="./images/sushiheader2.png"
+        alt="sushi plate header"
+        class="header__image"
+      />
+      <div class="nav__wrapper">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">ABOUT</a>
+            </li>
+            <li class="nav__item">
+              <a href="menu.html" class="nav__link">MENU</a>
+            </li>
+            <li class="nav__item">
+              <a href="reservation.html" class="nav__link">RESERVATIONS</a>
+            </li>
+            <li class="nav__item">
+              <a href="order.html" class="nav__link">ONLINE ORDER</a>
+            </li>
+            <li class="nav__item">
+              <a href="photo.html" class="nav__link">GALLERY</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main><div class="page">
+      <div class="reservation__form-container">
+        <img
+                src="./images/rolling-susi1.png"
+                alt="rolling sushi roll"
+                class="reservation__sushi-spin1"
+              /><img
+                src="./images/rolling-sushi2.png"
+                alt="rolling sushi roll"
+                class="reservation__sushi-spin2"
+              /><img
+                src="./images/rolling-sushi3.png"
+                alt="rolling sushi roll"
+                class="reservation__sushi-spin3"
+              /><img
+                src="./images/rolling-susi1.png"
+                alt="rolling sushi roll"
+                class="reservation__sushi-spin4"
+              />
+              <img
+                src="./images/rolling-sushi3.png"
+                alt="rolling sushi roll"
+                class="reservation__sushi-spin5"
+              /><img
+                src="./images/rolling-sushi2.png"
+                alt="rolling sushi roll"
+                class="reservation__sushi-spin6"
+              />
+              </div>
+      <form class="reservation__form">
+  <div class="reservation__field">
+    <input type="text" id="reservation__name" name="name" placeholder="" />
+    <label for="reservation__name">Name:</label>
+  </div>
+  <div class="reservation__field">
+    <input type="text" id="reservation__num" name="reservation__num" placeholder="" />
+    <label for="reservation__num">How many?</label>
+  </div>
+  <div class="reservation__field">
+    <input type="email" id="reservation__email" name="reservation__email" placeholder="" required/>
+    <label for="reservation__email">E-mail:</label>
+  </div>
+  <div class="reservation__field">
+    <input type="datetime-local" id="reservation__date" name="reservation__time" required />
+    <label for="reservation__date">When?</label>
+  </div>
+  <button type="submit" class="reservation__submit">Reserve Table</button>
+</form>
+    </div></div></main>
+    <footer class="footer">
+        <ul class="footer__hours-list">
+          <li><h5 class="footer__hours-title">HOURS</h5></li>
+          <li class="footer__hour-item">MON - 24/7</li>
+          <li class="footer__hour-item">TUES - 24/7</li>
+          <li class="footer__hour-item">WENDS - 24/7</li>
+          <li class="footer__hour-item">THURS - 24/7</li>
+          <li class="footer__hour-item">FRI - 24/7</li>
+          <li class="footer__hour-item">SAT - 24/7</li>
+          <li class="footer__hour-item">
+            SUN -
+            <p class="footer__hours-closed">CLOSED</p>
+          </li>
+        </ul>
+        <p class="footer__address">
+          123 Tuna Roll Lane, Wasabi Springs, FL 33777
+        </p>
+      </footer>
+    </div>
+    <script defer src="./scripts/index.js"></script>
+
+  </body>
+</html>

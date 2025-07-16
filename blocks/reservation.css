@@ -1,0 +1,179 @@
+.reservation__form-wrapper {
+  background: rgba(16, 184, 7, 0.05);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(5, 199, 11, 0.321);
+  border-radius: 45px;
+  padding: 3rem;
+  margin: 4rem auto;
+  width: 20%;
+  max-width: 1000px;
+  color: white;
+  box-shadow: 0 0 25px rgba(4, 173, 29, 0.723);
+}
+
+.reservation__form-container {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.reservation__form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 30px;
+}
+
+.reservation__field {
+  position: relative;
+  background-color: transparent;
+}
+
+.reservation__field input {
+  width: 100%;
+  max-width: 1000px;
+  padding: 1rem 0.75rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  margin: 0 auto;
+  background: transparent;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.reservation__field input:focus {
+  border-color: orange;
+  box-shadow: 0 0 10px orange;
+}
+
+.reservation__field label {
+  position: absolute;
+  top: 50%;
+  left: 0.75rem;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.6);
+  pointer-events: none;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.reservation__field input:focus + label,
+.reservation__field input:not(:placeholder-shown) + label {
+  top: -1rem;
+  left: 0.5rem;
+  font-size: 2rem;
+  background-color: transparent;
+  padding: 0 0.25rem;
+  color: orange;
+}
+
+.reservation__submit {
+  background: orange;
+  max-width: 800px;
+  color: black;
+  font-weight: bold;
+  padding: 1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.reservation__submit:hover {
+  background: white;
+  color: orange;
+  animation: dolphinJump 0.5s ease-in-out;
+}
+
+.reservation__sushi-spin1 {
+  position: absolute;
+  top: 535px;
+  left: -355px;
+  width: 60px;
+  height: auto;
+  z-index: 1;
+  transition: transform 0.5s ease;
+}
+
+.reservation__sushi-spin2 {
+  position: absolute;
+  top: 120px;
+  left: -500px;
+  width: 60px;
+  height: auto;
+  z-index: 1;
+  transition: transform 0.5s ease;
+}
+.reservation__sushi-spin3 {
+  position: absolute;
+  top: 335px;
+  right: -200px;
+  width: 60px;
+  height: auto;
+  z-index: 1;
+  transition: transform 0.5s ease;
+}
+.reservation__sushi-spin4 {
+  position: absolute;
+  top: 526px;
+  right: -420px;
+  width: 60px;
+  height: auto;
+  z-index: 1;
+  transition: transform 0.5s ease;
+}
+
+.reservation__sushi-spin5 {
+  position: absolute;
+  top: 316px;
+  right: 436px;
+  width: 60px;
+  height: auto;
+  z-index: 1;
+  transition: transform 0.5s ease;
+}
+.reservation__sushi-spin6 {
+  position: absolute;
+  top: 76px;
+  right: -500px;
+  width: 60px;
+  height: auto;
+  z-index: 1;
+  transition: transform 0.5s ease;
+}
+.reservation__sushi-spin1:hover,
+.reservation__sushi-spin2:hover,
+.reservation__sushi-spin3:hover,
+.reservation__sushi-spin4:hover,
+.reservation__sushi-spin5:hover,
+.reservation__sushi-spin6:hover {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes dolphinJump {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

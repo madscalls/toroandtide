@@ -1,0 +1,19 @@
+.page {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, rgb(25, 22, 21), black);
+  margin: 0;
+}
+section,
+.about,
+.page,
+body,
+html {
+  background-color: transparent !important;
+}

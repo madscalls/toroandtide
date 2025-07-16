@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  color: rgb(65, 65, 65);
+  font-family: "Roboto", sans-serif;
+  padding: 0 50px;
+  justify-content: space-between;
+}
+
+.footer__hours-title {
+  color: rgb(154, 154, 154);
+  font-size: 20px;
+}
+
+.footer__hours-list {
+  list-style-type: none;
+  font-size: 20px;
+  flex-direction: column;
+}
+
+.footer__hours-closed {
+  color: orange;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+.footer__address {
+  flex-direction: column-reverse;
+  display: flex;
+  font-size: 20px;
+  color: rgb(163, 107, 3);
+}
