@@ -55,6 +55,7 @@ p::first-letter {
   z-index: 1;
 }
 .about__logo {
+  margin-top: 150px;
   height: 500px;
   width: auto;
 }
